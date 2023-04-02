@@ -69,7 +69,7 @@ let jQuery = window['$'];
     }
   ],
   bootstrap: [EventsAppComponent]
-};)
+})
 export class AppModule {}
 
 export function checkDirtyState(component:CreateEventComponent) {
