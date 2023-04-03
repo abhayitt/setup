@@ -20,7 +20,7 @@ jobs:
       run: npm install
     
     - name: Lint with ESLint
-      run: npm run lint
+      run: ng lint
 
     - name: Format with Prettier
       run: npm run prettier
